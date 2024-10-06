@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0e7f9;
+    color: #2f2f2f; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #3a7d99; 
+}
+
+button {
+    background-color: #3a7d99; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #2b5e76;
+}
+
+.task, .additional-task {
+    margin-bottom: 30px;
+}
+
+.task h2, .additional-task h2 {
+    border-bottom: 2px solid #3a7d99;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}

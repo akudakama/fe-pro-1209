@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>≧( ° ° )≦</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>hw02</h1>
+
+        <section class="task">
+            <h2>Порівняння двох чисел</h2>
+            <label for="number1">Введіть перше число:</label>
+            <input type="number" id="number1">
+            <label for="number2">Введіть друге число:</label>
+            <input type="number" id="number2">
+            <button onclick="compareNumbers()">Порівняти</button>
+            <p id="compareResult"></p>
+        </section>
+
+        <section class="task">
+            <h2>Обчислення площі прямокутника</h2>
+            <label for="length">Довжина:</label>
+            <input type="number" id="length">
+            <label for="width">Ширина:</label>
+            <input type="number" id="width">
+            <button onclick="calculateArea()">Обчислити площу</button>
+            <p id="areaResult"></p>
+        </section>
+
+        <section class="task">
+            <h2>Обчислення периметру прямокутника</h2>
+            <label for="lengthPerimeter">Довжина:</label>
+            <input type="number" id="lengthPerimeter">
+            <label for="widthPerimeter">Ширина:</label>
+            <input type="number" id="widthPerimeter">
+            <button onclick="calculatePerimeter()">Обчислити периметр</button>
+            <p id="perimeterResult"></p>
+        </section>
+
+        <section class="task">
+            <h2>Конвертація температури з Цельсія в Фаренгейти</h2>
+            <label for="celsius">Температура в Цельсія:</label>
+            <input type="number" id="celsius">
+            <button onclick="convertToFahrenheit()">Конвертувати</button>
+            <p id="fahrenheitResult"></p>
+        </section>
+
+        <section class="task">
+            <h2>Обчислення об'єму циліндра</h2>
+            <label for="radius">Радіус:</label>
+            <input type="number" id="radius">
+            <label for="height">Висота:</label>
+            <input type="number" id="height">
+            <button onclick="calculateCylinderVolume()">Обчислити об'єм циліндра</button>
+            <p id="volumeResult"></p>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

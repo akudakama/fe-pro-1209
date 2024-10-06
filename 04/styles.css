@@ -1,0 +1,46 @@
+/* Нежные фиолетово-пурпурные тона */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5ff; /* Нежно-фиолетовый фон */
+    color: #4b3f72; /* Темный текст */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Белый контейнер для контраста */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #4b3f72; /* Темно-фиолетовый для заголовков */
+}
+
+button {
+    background-color: #4b3f72; /* Нежно-фиолетовая кнопка */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #3c3258; /* Темный пурпурный при наведении */
+}
+
+.task, .additional-task {
+    margin-bottom: 30px;
+}
+
+.task h2, .additional-task h2 {
+    border-bottom: 2px solid #4b3f72; /* Темно-фиолетовая граница для заголовков */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
